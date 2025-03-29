@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"examples\/users\/users[1:8]","start":1743277216656,"end":1743277217281,"title":"examples\/users\/users[1:8] 14:40:16.656-14:40:17.281 Get All users"},{"id":2,"group":1,"content":"examples\/users\/users[2.1:23]","start":1743277217296,"end":1743277217614,"title":"examples\/users\/users[2.1:23] 14:40:17.296-14:40:17.614 1. Obtener un usuario de la lista - cuando caso exitoso"},{"id":3,"group":1,"content":"examples\/users\/users[2.2:24]","start":1743277217622,"end":1743277218295,"title":"examples\/users\/users[2.2:24] 14:40:17.622-14:40:18.295 2. Obtener un usuario de la lista - cuando caso no exitoso"},{"id":4,"group":1,"content":"examples\/users\/users[3:27]","start":1743277218303,"end":1743277218600,"title":"examples\/users\/users[3:27] 14:40:18.303-14:40:18.600 Visualizar la lista cuando no se le pasa valor ID"},{"id":5,"group":1,"content":"examples\/users\/users[4.1:40]","start":1743277218611,"end":1743277218909,"title":"examples\/users\/users[4.1:40] 14:40:18.611-14:40:18.909 1. Validar la respuesta del servicio SINGLE cuando envia un ID valido (Caso Exitoso)"},{"id":6,"group":1,"content":"examples\/users\/users[4.2:41]","start":1743277218918,"end":1743277219588,"title":"examples\/users\/users[4.2:41] 14:40:18.918-14:40:19.588 2. Validar la respuesta del servicio SINGLE cuando envia un ID no valido (caso no exitoso)"},{"id":7,"group":1,"content":"examples\/users\/users[5:44]","start":1743277219594,"end":1743277220305,"title":"examples\/users\/users[5:44] 14:40:19.594-14:40:20.305 Create a user"},{"id":8,"group":1,"content":"examples\/users\/users[6.1:70]","start":1743277220312,"end":1743277220978,"title":"examples\/users\/users[6.1:70] 14:40:20.312-14:40:20.978 1. Validar la actualizacion del registro del usuario - envia un ID valido (Caso Exitoso)"},{"id":9,"group":1,"content":"examples\/users\/users[7.1:81]","start":1743277220987,"end":1743277221640,"title":"examples\/users\/users[7.1:81] 14:40:20.987-14:40:21.640 1. Validar la actualizacion del registro del usuario - envia un ID valido (Caso Exitoso) - PATCH"},{"id":10,"group":1,"content":"examples\/users\/users[8.1:92]","start":1743277221648,"end":1743277222320,"title":"examples\/users\/users[8.1:92] 14:40:21.648-14:40:22.320 1. Validar la eliminacion del registro del usuario - Caso Exitoso"},{"id":11,"group":1,"content":"examples\/users\/users[9.1:102]","start":1743277222327,"end":1743277222986,"title":"examples\/users\/users[9.1:102] 14:40:22.327-14:40:22.986 1. Validar el registro del usuario - Caso No Exitoso - POST - Register"},{"id":12,"group":1,"content":"examples\/users\/users[9.2:103]","start":1743277222993,"end":1743277223664,"title":"examples\/users\/users[9.2:103] 14:40:22.993-14:40:23.664 2. Validar el registro del usuario - Caso Exitoso - POST - Register"},{"id":13,"group":1,"content":"examples\/users\/users[10.1:113]","start":1743277223671,"end":1743277224322,"title":"examples\/users\/users[10.1:113] 14:40:23.671-14:40:24.322 1. Validar el Login del usuario - Caso No Exitoso - POST - Login"},{"id":14,"group":1,"content":"examples\/users\/users[10.2:114]","start":1743277224328,"end":1743277224995,"title":"examples\/users\/users[10.2:114] 14:40:24.328-14:40:24.995 2. Validar el Login del usuario - Caso Exitoso - POST - Login"},{"id":15,"group":1,"content":"examples\/users\/users[11.1:124]","start":1743277225000,"end":1743277225296,"title":"examples\/users\/users[11.1:124] 14:40:25.000-14:40:25.296 1. Validar la lista del ID delay Caso Exitoso - GET DELAYED"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

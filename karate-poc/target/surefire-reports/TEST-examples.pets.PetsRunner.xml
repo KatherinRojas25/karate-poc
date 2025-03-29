@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="examples.pets.PetsRunner" time="3.476" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Principal Chino\Desktop\Karate-Automation\karate-poc\target\test-classes;D:\Principal Chino\Desktop\Karate-Automation\karate-poc\target\classes;C:\Users\Chino\.m2\repository\io\karatelabs\karate-junit5\1.5.0\karate-junit5-1.5.0.jar;C:\Users\Chino\.m2\repository\io\karatelabs\karate-core\1.5.0\karate-core-1.5.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\js\js-scriptengine\24.0.0\js-scriptengine-24.0.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\polyglot\polyglot\24.0.0\polyglot-24.0.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\sdk\collections\24.0.0\collections-24.0.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\sdk\nativeimage\24.0.0\nativeimage-24.0.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\sdk\word\24.0.0\word-24.0.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\js\js-language\24.0.0\js-language-24.0.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\regex\regex\24.0.0\regex-24.0.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\truffle\truffle-api\24.0.0\truffle-api-24.0.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\shadowed\icu4j\24.0.0\icu4j-24.0.0.jar;C:\Users\Chino\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\Chino\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\Chino\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\Chino\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\Chino\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\Chino\.m2\repository\com\linecorp\armeria\armeria\1.29.2\armeria-1.29.2.jar;C:\Users\Chino\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\Chino\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\Chino\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\Chino\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.1\jackson-datatype-jdk8-2.17.1.jar;C:\Users\Chino\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.1\jackson-datatype-jsr310-2.17.1.jar;C:\Users\Chino\.m2\repository\io\micrometer\micrometer-core\1.13.0\micrometer-core-1.13.0.jar;C:\Users\Chino\.m2\repository\io\micrometer\micrometer-commons\1.13.0\micrometer-commons-1.13.0.jar;C:\Users\Chino\.m2\repository\io\micrometer\micrometer-observation\1.13.0\micrometer-observation-1.13.0.jar;C:\Users\Chino\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.1\HdrHistogram-2.2.1.jar;C:\Users\Chino\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport\4.1.110.Final\netty-transport-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-common\4.1.110.Final\netty-common-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-buffer\4.1.110.Final\netty-buffer-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-resolver\4.1.110.Final\netty-resolver-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-codec-haproxy\4.1.110.Final\netty-codec-haproxy-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-codec\4.1.110.Final\netty-codec-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-codec-http2\4.1.110.Final\netty-codec-http2-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-handler\4.1.110.Final\netty-handler-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-codec-http\4.1.110.Final\netty-codec-http-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-resolver-dns\4.1.110.Final\netty-resolver-dns-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-codec-dns\4.1.110.Final\netty-codec-dns-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-x86_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-aarch_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-x86_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-aarch_64.jar;C:\Users\Chino\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Chino\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Chino\.m2\repository\io\netty\netty-handler-proxy\4.1.110.Final\netty-handler-proxy-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-codec-socks\4.1.110.Final\netty-codec-socks-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.110.Final\netty-transport-classes-epoll-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-aarch_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.110.Final\netty-transport-classes-kqueue-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-x86_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.110.Final\netty-resolver-dns-classes-macos-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-aarch_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-aarch_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-tcnative-classes\2.0.65.Final\netty-tcnative-classes-2.0.65.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar;C:\Users\Chino\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.16.0\brotli4j-1.16.0.jar;C:\Users\Chino\.m2\repository\com\aayushatharva\brotli4j\service\1.16.0\service-1.16.0.jar;C:\Users\Chino\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.16.0\native-windows-x86_64-1.16.0.jar;C:\Users\Chino\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\Chino\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\Chino\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\Chino\.m2\repository\ch\qos\logback\logback-classic\1.5.4\logback-classic-1.5.4.jar;C:\Users\Chino\.m2\repository\ch\qos\logback\logback-core\1.5.4\logback-core-1.5.4.jar;C:\Users\Chino\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.12\jcl-over-slf4j-2.0.12.jar;C:\Users\Chino\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\Chino\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\Chino\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Chino\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\Chino\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\Chino\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\Chino\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\Chino\.m2\repository\de\siegmar\fastcsv\3.1.0\fastcsv-3.1.0.jar;C:\Users\Chino\.m2\repository\info\picocli\picocli\4.7.5\picocli-4.7.5.jar;C:\Users\Chino\.m2\repository\io\github\classgraph\classgraph\4.8.170\classgraph-4.8.170.jar;C:\Users\Chino\.m2\repository\io\github\t12y\resemble\1.1.0\resemble-1.1.0.jar;C:\Users\Chino\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\Chino\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Chino\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Chino\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Chino\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Chino\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Chino\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Lima"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\Chino\AppData\Local\Temp\surefire14889283393425259788\surefirebooter-20250209142006999_3.jar C:\Users\Chino\AppData\Local\Temp\surefire14889283393425259788 2025-02-09T14-20-06_901-jvmRun1 surefire-20250209142006999_1tmp surefire_0-20250209142006999_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="PetsRunner"/>
+    <property name="surefire.test.class.path" value="D:\Principal Chino\Desktop\Karate-Automation\karate-poc\target\test-classes;D:\Principal Chino\Desktop\Karate-Automation\karate-poc\target\classes;C:\Users\Chino\.m2\repository\io\karatelabs\karate-junit5\1.5.0\karate-junit5-1.5.0.jar;C:\Users\Chino\.m2\repository\io\karatelabs\karate-core\1.5.0\karate-core-1.5.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\js\js-scriptengine\24.0.0\js-scriptengine-24.0.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\polyglot\polyglot\24.0.0\polyglot-24.0.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\sdk\collections\24.0.0\collections-24.0.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\sdk\nativeimage\24.0.0\nativeimage-24.0.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\sdk\word\24.0.0\word-24.0.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\js\js-language\24.0.0\js-language-24.0.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\regex\regex\24.0.0\regex-24.0.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\truffle\truffle-api\24.0.0\truffle-api-24.0.0.jar;C:\Users\Chino\.m2\repository\org\graalvm\shadowed\icu4j\24.0.0\icu4j-24.0.0.jar;C:\Users\Chino\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\Chino\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\Chino\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\Chino\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\Chino\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\Chino\.m2\repository\com\linecorp\armeria\armeria\1.29.2\armeria-1.29.2.jar;C:\Users\Chino\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\Chino\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\Chino\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\Chino\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.1\jackson-datatype-jdk8-2.17.1.jar;C:\Users\Chino\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.1\jackson-datatype-jsr310-2.17.1.jar;C:\Users\Chino\.m2\repository\io\micrometer\micrometer-core\1.13.0\micrometer-core-1.13.0.jar;C:\Users\Chino\.m2\repository\io\micrometer\micrometer-commons\1.13.0\micrometer-commons-1.13.0.jar;C:\Users\Chino\.m2\repository\io\micrometer\micrometer-observation\1.13.0\micrometer-observation-1.13.0.jar;C:\Users\Chino\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.1\HdrHistogram-2.2.1.jar;C:\Users\Chino\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport\4.1.110.Final\netty-transport-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-common\4.1.110.Final\netty-common-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-buffer\4.1.110.Final\netty-buffer-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-resolver\4.1.110.Final\netty-resolver-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-codec-haproxy\4.1.110.Final\netty-codec-haproxy-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-codec\4.1.110.Final\netty-codec-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-codec-http2\4.1.110.Final\netty-codec-http2-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-handler\4.1.110.Final\netty-handler-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-codec-http\4.1.110.Final\netty-codec-http-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-resolver-dns\4.1.110.Final\netty-resolver-dns-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-codec-dns\4.1.110.Final\netty-codec-dns-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-x86_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-aarch_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-x86_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-aarch_64.jar;C:\Users\Chino\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Chino\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Chino\.m2\repository\io\netty\netty-handler-proxy\4.1.110.Final\netty-handler-proxy-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-codec-socks\4.1.110.Final\netty-codec-socks-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.110.Final\netty-transport-classes-epoll-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-aarch_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.110.Final\netty-transport-classes-kqueue-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-x86_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.110.Final\netty-resolver-dns-classes-macos-4.1.110.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-aarch_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-aarch_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-tcnative-classes\2.0.65.Final\netty-tcnative-classes-2.0.65.Final.jar;C:\Users\Chino\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar;C:\Users\Chino\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar;C:\Users\Chino\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.16.0\brotli4j-1.16.0.jar;C:\Users\Chino\.m2\repository\com\aayushatharva\brotli4j\service\1.16.0\service-1.16.0.jar;C:\Users\Chino\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.16.0\native-windows-x86_64-1.16.0.jar;C:\Users\Chino\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\Chino\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\Chino\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\Chino\.m2\repository\ch\qos\logback\logback-classic\1.5.4\logback-classic-1.5.4.jar;C:\Users\Chino\.m2\repository\ch\qos\logback\logback-core\1.5.4\logback-core-1.5.4.jar;C:\Users\Chino\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.12\jcl-over-slf4j-2.0.12.jar;C:\Users\Chino\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\Chino\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\Chino\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Chino\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\Chino\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\Chino\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\Chino\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\Chino\.m2\repository\de\siegmar\fastcsv\3.1.0\fastcsv-3.1.0.jar;C:\Users\Chino\.m2\repository\info\picocli\picocli\4.7.5\picocli-4.7.5.jar;C:\Users\Chino\.m2\repository\io\github\classgraph\classgraph\4.8.170\classgraph-4.8.170.jar;C:\Users\Chino\.m2\repository\io\github\t12y\resemble\1.1.0\resemble-1.1.0.jar;C:\Users\Chino\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\Chino\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Chino\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Chino\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Chino\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Chino\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Chino\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Chino"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Principal Chino\Desktop\Karate-Automation\karate-poc"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Chino\AppData\Local\Temp\surefire14889283393425259788\surefirebooter-20250209142006999_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.2+7-58"/>
+    <property name="user.name" value="Chino"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Chino\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Chino\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="D:\Principal Chino\Desktop\Karate-Automation\karate-poc"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\apache-maven-3.9.9\bin;C:\Users\Chino\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-23;C:\Program Files\apache-maven-3.9.9\bin\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.2+7-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="[1:6] Search a pet" classname="examples/pets/search_pet" time="1.881">
+    <system-out><![CDATA[14:20:08.192 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:20:08.986 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:20:09.235 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 138
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"id":0,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+14:20:09.780 [main] DEBUG com.intuit.karate - response time in milliseconds: 542
+1 < 200
+1 < Date: Sun, 09 Feb 2025 19:20:09 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":9223372036854775807,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+14:20:09.790 [main] INFO  com.intuit.karate - [print] pet id: 9223372036854775807 
+14:20:09.799 [main] DEBUG com.intuit.karate - request:
+2 > GET https://petstore.swagger.io/v2/pet/9223372036854775807
+2 > Host: petstore.swagger.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+14:20:10.083 [main] DEBUG com.intuit.karate - response time in milliseconds: 284
+2 < 200
+2 < Date: Sun, 09 Feb 2025 19:20:09 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2 < Server: Jetty(9.2.9.v20150224)
+{"id":9223372036854775807,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+]]></system-out>
+  </testcase>
+  <testcase name="[2:43] Validate response structure" classname="examples/pets/search_pet" time="0.865">
+    <system-out><![CDATA[14:20:10.104 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:20:10.108 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 138
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"id":0,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+14:20:10.391 [main] DEBUG com.intuit.karate - response time in milliseconds: 282
+1 < 200
+1 < Date: Sun, 09 Feb 2025 19:20:10 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":9223372036854775807,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+---------------------------------------------------------
+feature: classpath:examples/pets/search_pet.feature
+scenarios:  2 | passed:  2 | failed:  0 | time: 1.3643
+---------------------------------------------------------
+
+Karate version: 1.5.0
+======================================================
+elapsed:   2.76 | threads:    1 | thread time: 1.36 
+features:     1 | skipped:    0 | efficiency: 0.49
+scenarios:    2 | passed:     2 | failed: 0
+======================================================
+
+HTML report: (paste into browser to view) | Karate version: 1.5.0
+file:///D:/Principal%20Chino/Desktop/Karate-Automation/karate-poc/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>
