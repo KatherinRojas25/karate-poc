@@ -6,7 +6,7 @@ public class UsersRunner{
 
     @Karate.Test
     Karate searchPet(){
-//        return Karate.run("users").relativeTo(getClass());
-        return Karate.run().tags("@UsersAllTags").relativeTo(getClass());
+//        return Karate.run("users").relativeTo(getClass()); -- se usa cuando se quiera ejecutar todos los escenarios del feature
+        return Karate.run().tags("@UsersAllTags").relativeTo(getClass()); //se usa cuando se quiera ejecutar por tags indicado en el archivo feature
     }
 }
